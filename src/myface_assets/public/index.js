@@ -1,6 +1,5 @@
 import {stripIndent} from 'common-tags';
-import * as identityMap from "./identities";
-const identities = Object.values(identityMap);
+import identity from "./me";
 
 requestAnimationFrame(function ready () {
   const el = document.querySelector('#app');
@@ -16,7 +15,6 @@ function render (el) {
   if ( ! el) {
     throw new Error('#app el must be provided');
   }
-  const identity = identities[randomIndex(identities)];
   // el.innerHTML = myFaceHtml();
   el.innerHTML = stripIndent`
     <style>${stylesheet()}</style>
@@ -50,7 +48,3 @@ function stylesheet() { return stripIndent`
     max-width: 20em;
   }
 `; }
-
-function randomIndex(array) {
-  return Math.floor(array.length * Math.random());
-}

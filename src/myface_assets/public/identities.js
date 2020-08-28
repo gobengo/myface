@@ -1,13 +1,19 @@
 import myfaceImageUri from "./myface.jpg";
 import benImageUri from "./ben.jpg";
 import harrietImageUri from "./harriet.jpg";
+import bertrandImageUri from "./bertrand.jpg";
 
 export const me = {
-    // #TODO: replace this with your name
-    name: 'Bertrand Russell (#todo replace me)',
+    name: "Me",
+    bio: "I am you",
+    icon: myfaceImageUri,
+};
+
+export const bertrand = {
+    name: 'Bertrand Russell',
     bio: 'Philosopher',
     favoriteQuote: "Love is wise. Hate is foolish.",
-    icon: myfaceImageUri,
+    icon: bertrandImageUri,
 };
 
 export const ben = {
