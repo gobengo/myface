@@ -25,4 +25,5 @@ Add your own picture, bio, projects you're working on, links to your friend's ca
 
 ## Example Deployments
 
-* first: https://ccgce-babaa-aaaaa-aaaaa-caaaa-aaaaa-aaaaa-q.ic0.app/
+* first: https://dzqeg-xqgaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-q.ic0.app/
+
